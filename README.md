@@ -26,5 +26,9 @@ docker run -d \
 go run . server -d mysql
 ```
    
+### Test api
 
+Default OTP code is 1234(Because the email function is not implemented)
+
+Check api/api.go to see api route
 
