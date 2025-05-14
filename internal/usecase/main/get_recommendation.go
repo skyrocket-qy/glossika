@@ -3,6 +3,7 @@ package mainusecase
 import (
 	"context"
 	"encoding/json"
+	"time"
 
 	"recsvc/internal/domain/er"
 	"recsvc/internal/model"
@@ -56,6 +57,10 @@ func (u *Usecase) GetRecommendation(c context.Context) (*GetRecommendationOut, e
 }
 
 func (u *Usecase) getRecommendationFromDB(c context.Context) ([]Recommendation, error) {
+	// mock slow db query
+	MinResponseTime := time.Now().Add(3 * time.Second)
+	defer time.Sleep(time.Until(MinResponseTime))
+
 	var Recommendations []Recommendation
 
 	if err := u.db.WithContext(c).
