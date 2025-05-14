@@ -1,5 +1,3 @@
-# Glossika assignment
-
 ## Test step
 
 ### Set env
@@ -14,10 +12,10 @@ docker run -d --name redis -p 6379:6379 redis
 docker run -d \
   --name mysql \
   -p 3306:3306 \
-  -e MYSQL_ROOT_PASSWORD=glossika \
-  -e MYSQL_USER=glossika \
-  -e MYSQL_PASSWORD=glossika \
-  -e MYSQL_DATABASE=glossika \
+  -e MYSQL_ROOT_PASSWORD=recsvc \
+  -e MYSQL_USER=recsvc \
+  -e MYSQL_PASSWORD=recsvc \
+  -e MYSQL_DATABASE=recsvc \
   mysql:9.1
 ```
 

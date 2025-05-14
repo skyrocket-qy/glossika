@@ -3,9 +3,9 @@ package authcontroller
 import (
 	"net/http"
 
-	"glossika/internal/domain/er"
-	authucase "glossika/internal/usecase/auth"
-	"glossika/internal/util"
+	"recsvc/internal/domain/er"
+	authucase "recsvc/internal/usecase/auth"
+	"recsvc/internal/util"
 
 	"github.com/gin-gonic/gin"
 )

@@ -3,9 +3,9 @@ package authucase
 import (
 	"context"
 
-	"glossika/internal/domain/er"
-	"glossika/internal/model"
-	validate "glossika/internal/service/validator"
+	"recsvc/internal/domain/er"
+	"recsvc/internal/model"
+	validate "recsvc/internal/service/validator"
 
 	"github.com/redis/go-redis/v9"
 )

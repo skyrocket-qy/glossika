@@ -3,7 +3,7 @@ package util
 import (
 	"time"
 
-	er "glossika/internal/domain/er"
+	er "recsvc/internal/domain/er"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/spf13/viper"

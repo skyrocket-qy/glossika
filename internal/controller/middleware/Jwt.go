@@ -3,8 +3,8 @@ package middleware
 import (
 	"time"
 
-	"glossika/internal/domain/er"
-	"glossika/internal/util"
+	"recsvc/internal/domain/er"
+	"recsvc/internal/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"

@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"glossika/internal/domain/er"
-	"glossika/internal/model"
-	validate "glossika/internal/service/validator"
-	"glossika/internal/util"
+	"recsvc/internal/domain/er"
+	"recsvc/internal/model"
+	validate "recsvc/internal/service/validator"
+	"recsvc/internal/util"
 
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"

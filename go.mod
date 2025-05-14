@@ -1,4 +1,4 @@
-module glossika
+module recsvc
 
 go 1.23.3
 

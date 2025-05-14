@@ -1,9 +1,10 @@
 package util
 
 import (
+	er "recsvc/internal/domain/er"
+	validate "recsvc/internal/service/validator"
+
 	"github.com/gin-gonic/gin"
-	er "glossika/internal/domain/er"
-	validate "glossika/internal/service/validator"
 )
 
 func ParseValidate[T any](c *gin.Context, req *T) bool {

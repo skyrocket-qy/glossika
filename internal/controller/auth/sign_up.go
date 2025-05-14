@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"glossika/internal/domain/er"
-	authucase "glossika/internal/usecase/auth"
-	"glossika/internal/util"
+	"recsvc/internal/domain/er"
+	authucase "recsvc/internal/usecase/auth"
+	"recsvc/internal/util"
 )
 
 func (h *Handler) SignUp(c *gin.Context) {

@@ -1,9 +1,9 @@
 package controller
 
 import (
-	authcontroller "glossika/internal/controller/auth"
-	maincontroller "glossika/internal/controller/main"
-	_ "glossika/internal/controller/middleware" // avoid import cycle
+	authcontroller "recsvc/internal/controller/auth"
+	maincontroller "recsvc/internal/controller/main"
+	_ "recsvc/internal/controller/middleware" // avoid import cycle
 )
 
 type Handlers struct {

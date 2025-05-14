@@ -1,8 +1,8 @@
 package api
 
 import (
-	controller "glossika/internal/controller"
-	"glossika/internal/controller/middleware"
+	controller "recsvc/internal/controller"
+	"recsvc/internal/controller/middleware"
 
 	"github.com/gin-gonic/gin"
 )

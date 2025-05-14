@@ -3,9 +3,9 @@ package database
 import (
 	"fmt"
 
-	"glossika/internal/domain"
-	"glossika/internal/domain/er"
-	"glossika/internal/model"
+	"recsvc/internal/domain"
+	"recsvc/internal/domain/er"
+	"recsvc/internal/model"
 
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

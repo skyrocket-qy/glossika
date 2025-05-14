@@ -3,7 +3,7 @@ package redis
 import (
 	"context"
 
-	"glossika/internal/domain/er"
+	"recsvc/internal/domain/er"
 
 	"github.com/redis/go-redis/v9"
 )

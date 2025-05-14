@@ -1,7 +1,7 @@
 package main
 
 import (
-	"glossika/cmd"
+	"recsvc/cmd"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"glossika/internal/domain/er"
-	"glossika/internal/model"
+	"recsvc/internal/domain/er"
+	"recsvc/internal/model"
 
 	"github.com/redis/go-redis/v9"
 )

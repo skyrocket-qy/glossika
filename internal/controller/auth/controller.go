@@ -3,7 +3,7 @@ package authcontroller
 import (
 	"context"
 
-	authucase "glossika/internal/usecase/auth"
+	authucase "recsvc/internal/usecase/auth"
 )
 
 type Usecase interface {

@@ -3,7 +3,7 @@ package maincontroller
 import (
 	"context"
 
-	mainucase "glossika/internal/usecase/main"
+	mainucase "recsvc/internal/usecase/main"
 )
 
 type Usecase interface {

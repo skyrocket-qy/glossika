@@ -1,7 +1,7 @@
 package authucase
 
 import (
-	"glossika/internal/service/redis"
+	"recsvc/internal/service/redis"
 
 	"gorm.io/gorm"
 )

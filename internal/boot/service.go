@@ -1,8 +1,9 @@
 package boot
 
 import (
+	validate "recsvc/internal/service/validator"
+
 	"github.com/rs/zerolog/log"
-	validate "glossika/internal/service/validator"
 )
 
 func NewService() error {

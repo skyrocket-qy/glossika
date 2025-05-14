@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/rs/zerolog/log"
 
-	"glossika/cmd/server"
+	"recsvc/cmd/server"
 
 	"github.com/spf13/cobra"
 )

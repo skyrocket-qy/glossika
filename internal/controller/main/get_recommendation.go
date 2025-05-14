@@ -3,7 +3,7 @@ package maincontroller
 import (
 	"net/http"
 
-	"glossika/internal/domain/er"
+	"recsvc/internal/domain/er"
 
 	"github.com/gin-gonic/gin"
 )
