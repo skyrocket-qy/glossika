@@ -17,9 +17,13 @@ docker run -d \
   -e MYSQL_PASSWORD=recsvc \
   -e MYSQL_DATABASE=recsvc \
   mysql:9.1
+
+
 ```
 
-3. Start server
+3. Check Redis and MySQL service are ready
+
+4. Start server
 ```
 go run . server -d mysql
 ```
