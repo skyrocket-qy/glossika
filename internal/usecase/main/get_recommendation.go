@@ -39,7 +39,7 @@ func (u *Usecase) GetRecommendation(c context.Context) (*GetRecommendationOut, e
 			return nil, er.W(err)
 		}
 
-		if err := u.redisSvc.Cli.Set(c, CacheKey, recommendationsBytes, 0).Err(); err != nil {
+		if err := u.redisSvc.Cli.Set(c, CacheKey, recommendationsBytes, 10*time.Minute).Err(); err != nil {
 			return nil, er.W(err)
 		}
 
